@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0a0e27;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #050812;
+    padding: 15px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.logo-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: #00ffc3;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero span {
+    color: #00ffc3;
+}
+
+/* SECTION */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: #111827;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    padding: 50px;
+}
+
+.cta button {
+    padding: 10px 20px;
+    background: #00ffc3;
+    border: none;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #050812;
+}

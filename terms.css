@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0a0e27;
+    color: white;
+}
+
+/* BACK BUTTON */
+.back-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    color: #00ffc3;
+    text-decoration: none;
+    border: 2px solid #00ffc3;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #00ffc3;
+    color: black;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #00ffc3;
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    padding: 50px;
+}
+
+.cta button {
+    padding: 10px 20px;
+    background: #00ffc3;
+    border: none;
+    cursor: pointer;
+}
+/* CONTENT */
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+}
+
+.content h2 {
+    color: #00ffc3;
+    margin-top: 20px;
+}
+
+.content p {
+    line-height: 1.6;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #050812;
+    margin-top: 40px;
+}
